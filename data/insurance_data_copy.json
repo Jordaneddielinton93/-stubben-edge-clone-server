@@ -1,0 +1,95 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "555-1234",
+      "policies": [
+        {
+          "policy_id": 1,
+          "type": "auto",
+          "start_date": "2022-01-01",
+          "end_date": "2022-12-31",
+          "premium": 1000.0,
+          "coverage": {
+            "liability": 1000000,
+            "collision": 50000,
+            "comprehensive": 10000
+          }
+        },
+        {
+          "policy_id": 2,
+          "type": "home",
+          "start_date": "2022-02-01",
+          "end_date": "2023-01-31",
+          "premium": 1500.0,
+          "coverage": {
+            "property": 500000,
+            "liability": 1000000,
+            "contents": 10000
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "555-5678",
+      "policies": [
+        {
+          "policy_id": 3,
+          "type": "life",
+          "start_date": "2021-01-01",
+          "end_date": "2060-12-31",
+          "premium": 500.0,
+          "coverage": {
+            "death_benefit": 500000,
+            "accidental_death_benefit": 1000000
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bobjohnson@example.com",
+      "phone": "555-1234",
+      "policies": [
+        {
+          "policy_id": 4,
+          "type": "auto",
+          "start_date": "2022-03-01",
+          "end_date": "2023-02-28",
+          "premium": 1200.0,
+          "coverage": {
+            "liability": 1000000,
+            "collision": 50000,
+            "comprehensive": 10000
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Alice Brown",
+      "email": "alicebrown@example.com",
+      "phone": "555-5678",
+      "policies": [
+        {
+          "policy_id": 5,
+          "type": "renters",
+          "start_date": "2022-01-01",
+          "end_date": "2023-12-31",
+          "premium": 500.0,
+          "coverage": {
+            "property": 100000,
+            "liability": 1000000,
+            "contents": 50000
+          }
+        }
+      ]
+    }
+  ]
+}
