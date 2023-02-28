@@ -13,7 +13,10 @@ Router.get("/:id", (req, res) => {
     let getCustomerById = insurance_data.customers.find((customer) => {
       return customer.id === Number(req.params.id);
     });
-    res.json({ status: req.statusCode, payload: getCustomerById });
+    res.json({
+      status: req.statusCode,
+      payload: getCustomerById,
+    });
   } catch (error) {
     res.json({ status: req.statusCode, payload: "error" });
   }

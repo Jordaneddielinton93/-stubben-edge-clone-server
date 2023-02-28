@@ -1,0 +1,11 @@
+version: '3'
+services:
+  stubben-edge-clone-server:
+    build: .
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    environment:
+      - PORT=5001

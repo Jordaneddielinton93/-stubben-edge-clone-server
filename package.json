@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "nodemon bin/www.js",
+    "dev": "nodemon -L bin/www.js",
+    "start": "node bin/www.js",
     "build": "tsc"
   },
   "type": "module",
